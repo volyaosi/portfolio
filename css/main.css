@@ -20,7 +20,7 @@ form .field-container {
   z-index: 4; }
 
 .regular-border {
-  border: 2px solid #e8ff68; }
+  border: 2px solid #eef161; }
 
 .success-border {
   border: 2px solid #149476; }
@@ -33,7 +33,7 @@ form .field-container {
   cursor: pointer; }
 
 .btn {
-  background: #d7f04b;
+  background: #e1e435;
   color: #fff;
   padding: 0.8rem 2rem;
   transition: all 0.5s;
@@ -121,7 +121,7 @@ div[class^="direction"]:after {
     content: "";
     position: absolute;
     display: block;
-    background: #d7f04b;
+    background: #e1e435;
     opacity: 0.8;
     top: 0;
     left: 0;
@@ -251,9 +251,6 @@ main {
   background: #fff;
   box-shadow: 0px 0px 8px 3px #fff; }
 
-/* .logo img {
-  width: 35px; } */
-
 .logo-text {
   font-family: "Kufam", Verdana, Tahoma, sans-serif;
   font-size: 18px; }
@@ -288,13 +285,13 @@ header .cloud {
   display: block;
   margin: 1rem;
   width: 120px;
-  border: 2px solid #d7f04b;
+  border: 2px solid #e1e435;
   border-radius: 20px;
   padding: 0.8rem;
   font-size: 14px;
   text-align: center; }
   .btn-about:hover {
-    background: #d7f04b;
+    background: #e1e435;
     color: #fff; }
 
 .section-work {
@@ -304,10 +301,11 @@ header .cloud {
   text-align: left;
   max-width: 700px;
   margin: 0 auto;
-  padding: 3rem 0; }
+  padding: 1rem 0 3rem; }
 
 .header-skills {
-  text-align: center; }
+  text-align: center; 
+  padding-top: 3rem;}
   .header-skills h2 {
     font-size: 55px; }
 
@@ -325,13 +323,13 @@ header .cloud {
   width: 100px;
   height: 100px;
   box-shadow: 0px 0px 4px 2px #777;
-  border: 5px solid #d7f04b;
+  border: 5px solid #e1e435;
   line-height: 90px; }
   .content-skills li:hover {
     animation: pulsate 0.8s ease-in-out 0.1s; }
 
 .section-contact {
-  background: #d7f04b;
+  background: #e1e435;
   color: #fff;
   position: relative;
   z-index: 0;
@@ -379,7 +377,7 @@ header .cloud {
     width: 80%;
     display: block;
     border-radius: 10px;
-    background: #e8ff68; }
+    background: rgba(253,255,147,0.47); }
   .section-contact .status-box {
     border: 3px solid #149476;
     margin: 1rem 0;
@@ -390,12 +388,17 @@ header .cloud {
     .section-contact .status-box p {
       font-weight: 700;
       font-size: 24px; }
+    .section-contact form .field{
+      color: #333;
+      }
+    .section-contact form .btn {
+      color: #fff;
+    }
   .section-contact form .field,
   .section-contact form .btn {
     margin: 1.8rem auto 0;
     outline: none;
     font-family: "Montserrat", Verdana, Tahoma, sans-serif;
-    color: #fff;
     padding: 1rem; }
     .section-contact form .field:focus,
     .section-contact form .btn:focus {

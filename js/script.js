@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", function () {
     if (
       document.documentElement.clientHeight < window.pageYOffset &&
-      scrollHeight - document.documentElement.clientHeight - 50 >
+      scrollHeight - document.documentElement.clientHeight - 70 >
         window.pageYOffset
     ) {
       topBar.classList.add("visible-bg");
