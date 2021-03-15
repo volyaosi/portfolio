@@ -81,13 +81,13 @@ form .field-container {
 .direction-to-works::before {
   height: 4px;
   width: 100vw;
-  right: 70px; }
+  right: 85px; }
 
 .direction-to-works::after {
   height: 4px;
   max-width: 10vw;
   width: 25vw;
-  left: 70px; }
+  left: 85px; }
 
 div[class^="direction"]:before,
 div[class^="direction"]:after {
@@ -97,7 +97,10 @@ div[class^="direction"]:after {
 
 
 .content-about {
-  line-height: 1.8rem; }  
+  line-height: 1.8rem; }
+.content-about p {
+  margin-top: 0.6rem;
+}  
 
 /* Work section */
 .work-items {
